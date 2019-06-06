@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  width: 100%;
+  min-height: 115px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+  flex-basis: 2rem;
+  flex-grow: 0;
+  margin-bottom: 1rem;
+}
+
+.inputfield {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.book {
+  font-size: 2rem;
+  color: #84a7d8;
+  overflow: hidden;
+}
+
+.btn-submit {
+  background: #84a7d8;
+  color: #fff;
+  font-size: 1rem;
+  flex-basis: 2rem;
+  letter-spacing: 1.7px;
+  border-radius: 5px;
+  flex-grow: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background: #009900;
+  color: #fff;
+  flex-basis: 2rem;
+  font-size: 1rem;  
+  letter-spacing: 1.7px;
+  border-radius: 5px;
+  flex-grow: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.todolist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todolist-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.todolist-container ul li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  padding: 0.2rem 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todolist-container ul li h3 {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+}
+
+.todolist-container ul li .item-icons .edit {
+  margin-right: 0.8rem;
+  color: #00b300;
+  cursor: pointer;
+}
+.todolist-container ul li .trash {
+  color: #cc0000;
+  cursor: pointer;
+  margin-right: 0.8rem;
+}
+
+.container .clear {
+  width: 100%;
+  background-color: #cc0000;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1.7px;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
