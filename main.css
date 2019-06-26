@@ -80,6 +80,10 @@ body {
   cursor: pointer;
 }
 
+.btn-submit:focus {
+  outline:none
+}
+
 .todolist-container {
   display: flex;
   flex-direction: column;
